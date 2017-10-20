@@ -1,0 +1,7 @@
+Note about exercise 2 : login
+
+- ไม่ได้ใส่ตัวเช็ค connect ไว้ที่อื่น (process.php, save_data.php, secret.php)
+ แต่ include ไว้แล้วหยิบมาใช้เลย ถ้า sql ไม่เชื่อมต่อกับ server น่าจะเออเร่อร์
+ - ถ้าใช้ username ซ้ำจะล็อคอินเข้าของคนที่เคยล็อคอินอยู่แล้ว
+ - ควรมีตัวเลือกเช็ค username ซ้ำ กับ เช็ค password / retype-password ในหน้า regis เลย
+ - แก้ชื่อ database ทั้งหมดได้ใน file connect.php 
